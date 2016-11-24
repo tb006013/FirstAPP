@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*font-size: 100%;*/
+}
+html,body {height:100%;overflow:auto;margin: 0;}
+body{
+	font-size: 62.5%;
+	font-family: 幼圆;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}

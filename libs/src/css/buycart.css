@@ -1,0 +1,178 @@
+/*!---header---*/
+header {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  background: #8e488e;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  transform: translateZ(0); }
+  header .row {
+    margin: 0; }
+    header .row div:nth-child(2) a {
+      display: inline-block;
+      height: 100%;
+      padding: 0 10px;
+      color: #fff; }
+    header .row div:nth-child(2) .active {
+      background: #fff;
+      color: #000; }
+  header .list-connect {
+    width: 126px;
+    position: absolute;
+    bottom: -160px;
+    right: 5px;
+    background: #484F55;
+    opacity: 0.9;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    height: 152px;
+    display: none; }
+    header .list-connect .triangle {
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: -16px;
+      right: 20px;
+      border-left: 8px solid transparent;
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid #484F55; }
+    header .list-connect ul {
+      height: 134px; }
+      header .list-connect ul li {
+        width: 100%;
+        text-align: left;
+        text-indent: 20%;
+        height: 38px;
+        line-height: 38px;
+        border-bottom: 1px solid #5B6166; }
+        header .list-connect ul li a {
+          color: #fff;
+          font-size: 12px;
+          font-weight: normal; }
+      header .list-connect ul li:last-child {
+        border: none; }
+
+header span {
+  padding: 0px;
+  cursor: pointer;
+  color: #fff; }
+
+header div {
+  height: 48px;
+  line-height: 48px;
+  padding: 0px 0px; }
+
+/*!---connect---*/
+.connect {
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  bottom: 47px;
+  background: #f1f5f6;
+  overflow: auto; }
+  .connect ul {
+    width: 100%; }
+    .connect ul li {
+      padding: 10px;
+      width: 100%;
+      background: #fff;
+      margin-top: 10px;
+      clear: both;
+      overflow: hidden; }
+      .connect ul li .list-left {
+        float: left;
+        width: 40%; }
+      .connect ul li .list-right {
+        float: right;
+        width: 60%; }
+        .connect ul li .list-right div:nth-child(1) {
+          width: 100%;
+          height: 60%;
+          font-size: 14px;
+          font-weight: bold;
+          margin-bottom: 20%; }
+        .connect ul li .list-right div:nth-child(2) {
+          width: 100%;
+          height: 60%; }
+          .connect ul li .list-right div:nth-child(2) .pricepart {
+            color: #ea1f8f;
+            font-size: 18px; }
+          .connect ul li .list-right div:nth-child(2) .numpart {
+            float: right; }
+            .connect ul li .list-right div:nth-child(2) .numpart span {
+              display: inline-block;
+              border: 1px solid #ccc;
+              width: 25px;
+              height: 25px;
+              line-height: 25px;
+              text-align: center;
+              float: left; }
+            .connect ul li .list-right div:nth-child(2) .numpart span:nth-child(1) {
+              border-radius: 3px 0 0 3px; }
+            .connect ul li .list-right div:nth-child(2) .numpart span:nth-child(2) {
+              margin-top: 1px; }
+            .connect ul li .list-right div:nth-child(2) .numpart span:nth-child(3) {
+              border-radius: 0 3px 3px 0; }
+            .connect ul li .list-right div:nth-child(2) .numpart span:nth-child(4) {
+              border: none; }
+      .connect ul li img {
+        width: 40%;
+        margin-left: 10px; }
+      .connect ul li div {
+        display: inline-block; }
+      .connect ul li div:first-child span {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        line-height: 19px;
+        text-align: center;
+        color: #8e488e;
+        font-size: 18px;
+        border: 2px solid #000;
+        border-radius: 50%; }
+      .connect ul li div:nth-child(3) {
+        width: 50%; }
+
+/*!---footer---*/
+footer {
+  width: 100%;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #555;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  background: #fff;
+  overflow: hidden; }
+  footer .row {
+    margin: 0; }
+    footer .row div:nth-child(1) {
+      background: #f1f5f6; }
+      footer .row div:nth-child(1) a {
+        color: #8e488e;
+        font-size: 25px; }
+    footer .row div:nth-child(2) {
+      background: #dd3d97; }
+    footer .row div:nth-child(3) {
+      background: #8e488e; }
+  footer .row > div {
+    text-align: center;
+    height: 47px;
+    padding: 10px 0; }
+    footer .row > div .active {
+      color: #985998; }
+    footer .row > div a {
+      display: block;
+      height: 100%;
+      line-height: 27px;
+      color: #fff;
+      font-size: 13px; }
+    footer .row > div p {
+      margin: 0; }
+
+/*# sourceMappingURL=buycart.css.map */

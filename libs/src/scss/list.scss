@@ -1,0 +1,164 @@
+$backgroundcolor:#8e488e;
+$headercolor:#fff;
+$header:header;
+/*!---header---*/ 
+header{
+	width:100%;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	background:$backgroundcolor;
+	color:$headercolor;
+	position:absolute;
+	top:0;
+	z-index:999;
+	transform: translateZ(0);
+	.row{
+		margin:0;
+		a{
+			color:#fff;
+		}
+	}
+	.list-connect{
+		width:126px;
+		position:absolute;
+		bottom:-170px;
+		right:5px;
+		background:#484F55;
+		opacity:0.9;
+		border-radius:5px;
+		border:1px solid transparent;
+		display:none;
+		.triangle{
+		width:0;
+		height:0;
+		position:absolute;
+		top:-28px;
+		right:20px;
+		border-left:8px solid transparent;
+		border-top:8px solid transparent;
+		border-right:8px solid transparent;
+		border-bottom:8px solid #484F55;
+	}
+		ul{
+			height:134px;
+			li{
+				width:100%;
+				text-align:left;
+				text-indent:20%;
+				height:38px;
+				line-height:38px;
+
+				border-bottom: 1px solid #5B6166;
+				a{
+					color:#fff;
+					font-size:12px;
+					font-weight:normal;
+				}
+			}
+			li:last-child{
+				border:none;
+			}
+		}
+	}
+}
+header span{
+	padding:0px;
+	cursor:pointer;
+}
+header div{
+	padding:6px 0px;
+}
+/*!---connect---*/
+.connect{
+	width:100%;
+	position:absolute;
+	top:48px;
+	bottom:58px;
+	background:#f1f5f6;
+	overflow:auto;
+	z-index:0;
+	.list-left{
+		width:24%;
+		float:left;
+		.active{
+				background:#f1f5f6;
+				color:#ff0000;
+			}
+		li{
+			width:100%;
+			text-align:center;
+			height:40px;
+			line-height:40px;
+			font-size:15px;
+			color:#000;
+			background: #fff;
+			border-bottom:1px solid #f1f5f6;
+		}
+	}
+	.list-right{
+		margin-right:5px;
+		float:right;
+		width:72%;
+		background:#fff;
+		.hot-title{
+			width:100%;
+			height:40px;
+			line-height:40px;
+			font-size:15px;
+			font-weight:bold;
+			background:#f1f5f6;
+		}
+		a{
+			display:inline-block;
+			width:31%;
+			text-align:center;
+			img{
+				width:100%;
+			}
+			div{
+				font-size:15px;
+			}
+		}
+	}
+}
+.loading{
+	position:absolute;
+	top:48px;
+	bottom:58px;
+	width:100%;
+	background:url(../../images/13221820.gif) center center no-repeat;
+	background-color:#000;
+	z-index:999;
+	opacity:0.3;
+	// transform:translate(-50%,-50%);
+	display:none;
+	}
+
+/*!---footer---*/
+footer{
+	width:100%;
+	font-size:20px;
+	position:absolute;
+	bottom:0;
+	color:#555;
+	font-weight:bold;
+	border-top:1px solid #ccc;
+	background:#fff;
+	.row{
+		margin:0;
+	}
+	.row>div{
+		text-align:center;
+		padding:0;
+		.active{
+			color:#985998;
+		}
+		p:nth-child(2){
+			font-size:12px;
+		}
+		a{
+				color:#333;
+			}
+	}
+}

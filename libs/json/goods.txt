@@ -1,0 +1,80 @@
+[
+	{
+		"id":"1",
+		"cover":"libs/images/54.jpg",
+		"title":"斯文印花黑灰色短袖连衣裙",
+		"money":"120",
+		"brandname":"LETDIOSTO",
+		"goodsname":"女款黑白色条纹上衣阔腿裤套装",
+		"place":"美国",
+		"stuff":"上衣:粘纤77% 聚酯纤维18.5% 氨纶4.5% 裤子:聚酯纤维100% (装饰物除外)",
+		"wash":"最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）",
+		"img":["libs/images/54.jpg","libs/images/55.jpg","libs/images/56.jpg"],
+		"infro":"libs/images/60.jpg"
+	},
+	{
+		"id":"2",
+		"cover":"libs/images/55.jpg",
+		"title":"斯文印花黑灰色短袖连衣裙",
+		"money":"120",
+		"brandname":"LETDIOSTO",
+		"goodsname":"女款黑白色条纹上衣阔腿裤套装",
+		"place":"中国",
+		"stuff":"上衣:粘纤77% 聚酯纤维18.5% 氨纶4.5% 裤子:聚酯纤维100% (装饰物除外)",
+		"wash":"最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）",
+		"img":["libs/images/54.jpg","libs/images/55.jpg","libs/images/56.jpg"],
+		"infro":"libs/images/60.jpg"
+	},
+	{
+		"id":"3",
+		"cover":"libs/images/56.jpg",
+		"title":"斯文印花黑灰色短袖连衣裙",
+		"money":"120",
+		"brandname":"LETDIOSTO",
+		"goodsname":"女款黑白色条纹上衣阔腿裤套装",
+		"place":"中国",
+		"stuff":"上衣:粘纤77% 聚酯纤维18.5% 氨纶4.5% 裤子:聚酯纤维100% (装饰物除外)",
+		"wash":"最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）",
+		"img":["libs/images/54.jpg","libs/images/55.jpg","libs/images/56.jpg"],
+		"infro":"libs/images/60.jpg"
+	},
+	{
+		"id":"4",
+		"cover":"libs/images/57.jpg",
+		"title":"斯文印花黑灰色短袖连衣裙",
+		"money":"120",
+		"brandname":"LETDIOSTO",
+		"goodsname":"女款黑白色条纹上衣阔腿裤套装",
+		"place":"中国",
+		"stuff":"上衣:粘纤77% 聚酯纤维18.5% 氨纶4.5% 裤子:聚酯纤维100% (装饰物除外)",
+		"wash":"最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）",
+		"img":["libs/images/54.jpg","libs/images/55.jpg","libs/images/56.jpg"],
+		"infro":"libs/images/60.jpg"
+	},
+	{
+		"id":"5",
+		"cover":"libs/images/58.jpg",
+		"title":"斯文印花黑灰色短袖连衣裙",
+		"money":"120",
+		"brandname":"LETDIOSTO",
+		"goodsname":"女款黑白色条纹上衣阔腿裤套装",
+		"place":"中国",
+		"stuff":"上衣:粘纤77% 聚酯纤维18.5% 氨纶4.5% 裤子:聚酯纤维100% (装饰物除外)",
+		"wash":"最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）",
+		"img":["libs/images/54.jpg","libs/images/55.jpg","libs/images/56.jpg"],
+		"infro":"libs/images/60.jpg"
+	},
+	{
+		"id":"6",
+		"cover":"libs/images/59.jpg",
+		"title":"斯文印花黑灰色短袖连衣裙",
+		"money":"120",
+		"brandname":"LETDIOSTO",
+		"goodsname":"女款黑白色条纹上衣阔腿裤套装",
+		"place":"中国",
+		"stuff":"上衣:粘纤77% 聚酯纤维18.5% 氨纶4.5% 裤子:聚酯纤维100% (装饰物除外)",
+		"wash":"最高洗涤温度40℃ 不可漂白 平摊晾干 熨斗底板最高温度110℃ 常规干洗（深色或者深色与浅色相拼的衣服洗涤时请注意：不宜用碱性过强的洗涤液；不宜浸泡时间过久）",
+		"img":["libs/images/54.jpg","libs/images/55.jpg","libs/images/56.jpg"],
+		"infro":"libs/images/60.jpg"
+	}
+]

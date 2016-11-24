@@ -1,0 +1,253 @@
+$backgroundcolor:#8e488e;
+$headercolor:#fff;
+$header:header;
+/*!---header---*/ 
+header{
+	width:100%;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	background:$backgroundcolor;
+	color:$headercolor;
+	position:absolute;
+	top:0;
+	z-index:999;
+	transform: translateZ(0);
+	.row{
+		margin:0;
+		div:nth-child(2) a{
+			display:inline-block;
+			height:100%;
+			padding:0 10px;
+			color:#fff;
+		}
+		div:nth-child(2) .active{
+			background:#fff;
+			color:#000;
+		}
+	}
+	.list-connect{
+		width:126px;
+		position:absolute;
+		bottom:-160px;
+		right:5px;
+		background:#484F55;
+		opacity:0.9;
+		border-radius:5px;
+		border:1px solid transparent;
+		height:152px;
+		display:none;
+		.triangle{
+		width:0;
+		height:0;
+		position:absolute;
+		top:-16px;
+		right:20px;
+		border-left:8px solid transparent;
+		border-top:8px solid transparent;
+		border-right:8px solid transparent;
+		border-bottom:8px solid #484F55;
+	}
+		ul{
+			height:134px;
+			li{
+				width:100%;
+				text-align:left;
+				text-indent:20%;
+				height:38px;
+				line-height:38px;
+
+				border-bottom: 1px solid #5B6166;
+				a{
+					color:#fff;
+					font-size:12px;
+					font-weight:normal;
+				}
+			}
+			li:last-child{
+				border:none;
+			}
+		}
+	}
+}
+header span{
+	padding:0px;
+	cursor:pointer;
+}
+header div{
+	height:48px;
+	line-height:48px;
+	padding:0px 0px;
+}
+/*!---connect---*/
+.connect{
+	width:100%;
+	position:absolute;
+	top:48px;
+	bottom:47px;
+	background:#f1f5f6;
+	overflow:auto;
+	.part-top{
+		background:#fff;
+		overflow:hidden;
+		p{
+			width:100%;
+			margin:5px 0 5px 10px;
+			font-size:14px;
+			span{
+				color:#e80080;
+				font-size:16px;
+			}
+		}
+	}
+	.part-middle{
+		width:100%;
+		background:#fff;
+		margin-top:10px;
+		li{
+			padding:5px 0;
+			text-indent:10px;
+			span:nth-child(1){
+				font-weight:bold;
+			}
+		}
+	}
+	.part-bottom{
+		width:100%;
+		img{
+			width:100%;
+		}
+	}
+}
+/*!---comment---*/
+.comment{
+	width:100%;
+	position:absolute;
+	top:48px;
+	bottom:47px;
+	background:#f1f5f6;
+	display:none;
+	overflow:auto;
+	ul{
+		width:100%;
+		margin-top:10px;
+		li{
+			width:100%;
+			background:#fff;
+		}
+		li:nth-child(1){
+			position:relative;
+			height:50px;
+			line-height:50px;
+		}
+		li:nth-child(1):after{
+			content:'';
+			position:absolute;
+			bottom:0;
+			left:0;
+			width:100%;
+			height:1px;
+			background:#ccc;
+			-webkit-transform:scaleY(0.5);
+			transform:scaleY(0.5);
+		}
+		span{
+			display:inline-block;
+			margin:0px 0 0px 10px;
+		}
+		li:nth-child(1) span:nth-child(1){
+			float:left;
+		}
+		li:nth-child(1) span:nth-child(3){
+			float:right;
+			margin-right:10px;
+			font-size:14px;
+		}
+		.head{
+			display:inline-block;
+			width:30px;
+			height:30px;
+			border-radius:50%;
+			// overflow:hidden;
+		}
+		img{
+			width:100%;
+			height:100%;
+			border-radius:50%;
+		}
+		li:nth-child(2){
+			color:#ff0000;
+		}
+	}
+} 
+/*!---swiper---*/
+.swiper-container {
+    width: 100%;
+} 
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+ .swiper-container img{
+ 	width:100%;
+ }
+/*!---footer---*/ 
+footer{
+	width:100%;
+	font-size:20px;
+	position:absolute;
+	bottom:0;
+	color:#555;
+	font-weight:bold;
+	border-top:1px solid #ccc;
+	background:#fff;
+	overflow:hidden;
+	.row{
+		margin:0;
+		div:nth-child(1){
+			background:#f1f5f6;
+			a{
+				color:#8e488e;
+				font-size:25px;
+			}
+		}
+		div:nth-child(2){
+			background:#dd3d97;
+		}
+		div:nth-child(3){
+			background:#8e488e;
+		}
+	}
+	.row>div{
+		text-align:center;
+		height:47px;
+		padding:10px 0;
+		.active{
+			color:#985998;
+		}
+		a{
+			display:block;
+			height:100%;
+			line-height:27px;
+			color:#fff;
+			font-size:13px;
+		}
+		p{
+			margin:0;
+		}
+	}
+}

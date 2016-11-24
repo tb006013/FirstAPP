@@ -1,0 +1,168 @@
+$backgroundcolor:#8e488e;
+$headercolor:#fff;
+$header:header;
+/*!---header---*/ 
+header{
+	width:100%;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	background:$backgroundcolor;
+	color:$headercolor;
+	position:absolute;
+	top:0;
+	z-index:999;
+	transform: translateZ(0);
+	.row{
+		margin:0;
+	}
+}
+header span{
+	padding:0px;
+	cursor:pointer;
+}
+header div{
+	padding:6px 0px;
+}
+/*!---auto-hide---*/
+.auto-hide{
+	display:none;
+} 
+/*!---search---*/
+.search{
+	width:100%;
+	position:absolute;
+	top:48px;
+	.row{
+		margin:0;
+		.input-group{
+			margin:10px auto;
+			border:1px solid #ccc;
+			border-radius:5px;
+			.input-group-addon{
+				background:#fff;
+				border-right:none;
+			}
+			.form-control{
+				 border-left:none;	
+			}
+		}
+	}
+} 
+/*!---connect---*/
+.connect{
+	width:100%;
+	// height:800px;
+	position:absolute;
+	top:48px;
+	bottom:54px;
+	overflow:auto;
+}
+/*!---swiper---*/
+.swiper-container {
+    width: 100%;
+} 
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+ .swiper-container img{
+ 	width:100%;
+ }
+ .goods-list{
+	width:100%;
+	height:100%;
+	 img{
+		width:100%;
+		height:100%;
+		padding:0;
+		margin:0;
+	}
+	.row{
+		margin:0;
+	}
+	.row>div{
+		text-align:center;
+		padding:0;
+	}
+	.list-middle{
+		margin-bottom:1.5%;
+		div{
+		margin-top:1.5%;
+		}
+		img{
+		width:96%;
+		}
+	}
+	.list-bottom{
+		div{
+		text-align:left;
+			 p{
+				margin:2px 0 0 5px;
+				font-size:18px;
+				span{
+					color:#e60588;
+				}
+			}
+		}
+	}
+}
+/*!---backtop---*/
+.fixed-top{
+	width:55px;
+	height:55px;
+	background:#e049a4;
+	position:fixed;
+	bottom:100px;
+	right:10px;
+	border-radius:50%;
+	text-align:center;
+	line-height:55px;
+	z-index:999;
+	a{
+		color:#fff;
+		font-size:30px;
+	}
+}
+ /*!---footer---*/
+footer{
+	width:100%;
+	font-size:20px;
+	position:absolute;
+	bottom:0;
+	color:#555;
+	font-weight:bold;
+	border-top:1px solid #ccc;
+	background:#fff;
+	.row{
+		margin:0;
+	}
+	.row>div{
+		text-align:center;
+		padding:0;
+		.active{
+			color:#985998;
+		}
+		p:nth-child(2){
+			font-size:12px;
+		}
+		a{
+				color:#333;
+			}
+	}
+}
+

@@ -1,0 +1,26 @@
+[
+	{
+		"brandurl":"libs/images/58.jpg",
+		"brandname":"品牌1"	
+	},
+	{
+		"brandurl":"libs/images/58.jpg",
+		"brandname":"品牌2"
+	},
+	{
+		"brandurl":"libs/images/58.jpg",
+		"brandname":"品牌3"
+	},
+	{
+		"brandurl":"libs/images/58.jpg",
+		"brandname":"品牌4"
+	},
+	{
+		"brandurl":"libs/images/58.jpg",
+		"brandname":"品牌5"
+	},
+	{
+		"brandurl":"libs/images/58.jpg",
+		"brandname":"品牌6"
+	},
+]
